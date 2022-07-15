@@ -3,7 +3,7 @@ import Recipe from './Recipe'
 
 const RecipeList = ({ recipes }) => {
   return (
-    <div>
+    <>
    <div> 
         {recipes.map(recipe => {
            return (
@@ -15,7 +15,7 @@ const RecipeList = ({ recipes }) => {
         })}
     </div>
     <button>Add Recipe</button>
-    </div>
+    </>
   )
 }
 
